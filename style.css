@@ -1,0 +1,62 @@
+h1{
+    color: blue; 
+    background-color: black
+}
+#firstH{
+    color: red;
+    background-color: lime;
+}
+.paragraph{
+    color: green;
+    background-color: yellow;
+}
+p{
+    color: limegreen;
+    background-color: blue;
+}
+.boldW
+{
+    font-weight:bolder;
+    color: red;
+}
+abbr{
+    font-style: italic;
+    color: chocolate;
+}
+
+body{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    background-color: lightblue;
+}
+.myDiv{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: lightcoral;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.Unor{
+    list-style-type:none;
+    
+}
+.Olist{
+    list-style-type:lower-alpha;
+}
+ol::before
+{
+    content: "List of items";
+    color: red;
+}
+ol::after{
+    content: "End of list";
+    color: red;
+}
+ul>li::after{
+    content: "End of elem";
+    color: red;
+}
